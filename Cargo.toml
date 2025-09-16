@@ -1,0 +1,22 @@
+[package]
+name = "global-hotkey-unifier"
+version = "0.1.0"
+edition = "2021"
+authors = ["VpkDevs"]
+description = "A cross-platform global hotkey unifier for consistent hotkey management across different applications and operating systems"
+license = "MIT"
+repository = "https://github.com/VpkDevs/global-hotkey-unifier"
+keywords = ["hotkey", "global", "keyboard", "cross-platform", "input"]
+categories = ["os", "development-tools"]
+
+[lib]
+name = "global_hotkey_unifier"
+path = "src/lib.rs"
+
+[dependencies]
+
+[dev-dependencies]
+
+[[bin]]
+name = "global-hotkey-unifier"
+path = "src/main.rs"
